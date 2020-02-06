@@ -6,6 +6,8 @@ This a dummy repository to test a Huksy / Yarnhook configuration before I make a
 
 ## What do I do?
 
+Note: this test will require you to have Yarn and Node installed on your machine.
+
 1. Fork this repo and then clone it onto your machine. Then, `cd` into the project you've cloned and run `yarn install` \(hopefully just this once!\).
 
 2. Add my repo as an upstream:
@@ -14,7 +16,7 @@ This a dummy repository to test a Huksy / Yarnhook configuration before I make a
 git remote add upstream https://github.com/DanielJWagener/ytest.git
 ```
 
-3. Let me know when you've got everything ready! I'll then change the upstream package.json to include lodash.
+3. Let me know when you've got everything ready! I'll then change the upstream package.json to include lodash. I'll also push an index.js file that console logs lodash.
 
 4. When I've given you the word that I've added lodash, run these commands:
 
@@ -24,6 +26,6 @@ git pull upstream
 git merge upstream/master
 ```
 
-5. If all goes well, lodash will be installed in your local project without you having to manually run `yarn install`.
+5. If all goes well, lodash will be installed in your local project without you having to manually run `yarn install`. You can test to make sure everything is working by running `node index.js` in the terminal.
 
 Godspeed!
