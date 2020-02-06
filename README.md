@@ -10,7 +10,7 @@ This a dummy repository to test a Huksy / Yarnhook configuration before I make a
 
 2. Let me know when you've cloned and installed everything. I'll then change the upstream package.json to include lodash.
 
-3. When I've given you the word that I've add lodash, run these commands:
+3. When I've given you the word that I've added lodash, run these commands:
 
 ```
 git fetch --all
