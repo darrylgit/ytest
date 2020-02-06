@@ -8,5 +8,10 @@
   "devDependencies": {
     "husky": "^4.2.1",
     "yarnhook": "^0.4.3"
+  },
+  "huksy": {
+    "hooks": {
+      "post-merge": "yarnhook"
+    }
   }
 }
