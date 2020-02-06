@@ -1,0 +1,8 @@
+{
+  "name": "ytest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DanielJWagener/ytest.git",
+  "author": "Daniel Wagener <daniel.j.wagener@gmail.com>",
+  "license": "MIT"
+}
