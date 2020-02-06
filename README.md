@@ -6,11 +6,17 @@ This a dummy repository to test a Huksy / Yarnhook configuration before I make a
 
 ## What do I do?
 
-1. Fork this repo and then clone it onto your machine. Then, run `yarn install` \(hopefully just this once!\).
+1. Fork this repo and then clone it onto your machine. Then, `cd` into the project you've cloned and run `yarn install` \(hopefully just this once!\).
 
-2. Let me know when you've cloned and installed everything. I'll then change the upstream package.json to include lodash.
+2. Add my repo as an upstream:
 
-3. When I've given you the word that I've added lodash, run these commands:
+```
+git remote add upstream https://github.com/DanielJWagener/ytest.git
+```
+
+3. Let me know when you've got everything ready! I'll then change the upstream package.json to include lodash.
+
+4. When I've given you the word that I've added lodash, run these commands:
 
 ```
 git fetch --all
@@ -18,6 +24,6 @@ git pull upstream
 git merge upstream/master
 ```
 
-4. If all goes well, lodash will be installed in your local project without you having to manually run `yarn install`.
+5. If all goes well, lodash will be installed in your local project without you having to manually run `yarn install`.
 
 Godspeed!
