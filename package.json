@@ -13,5 +13,8 @@
     "hooks": {
       "post-merge": "yarnhook"
     }
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
