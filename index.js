@@ -1,3 +1,4 @@
-const _ = require("lodash");
+// const _ = require("lodash");
+const licia = require("licia");
 
-console.log(_);
+console.log(licia);

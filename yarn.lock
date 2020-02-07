@@ -240,6 +240,11 @@ json-parse-better-errors@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
   integrity sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
 
+licia@^1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/licia/-/licia-1.18.0.tgz#79c40e907837f3e34298da6cf32c1de4ab174529"
+  integrity sha512-WyaaoUjKwRZf0VQ3wxowjmeUhgEPBlnb5YNu0cf6aFZyshJOvKhIzZWdBmLf1bSKC9sxi4EHQKYeGS+bJu1dXQ==
+
 lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"

@@ -15,6 +15,7 @@
     }
   },
   "dependencies": {
+    "licia": "^1.18.0",
     "lodash": "^4.17.15"
   }
 }
