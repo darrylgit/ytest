@@ -22,7 +22,6 @@ git remote add upstream https://github.com/DanielJWagener/ytest.git
 
 ```
 git fetch --all
-git pull upstream
 git merge upstream/master
 ```
 
