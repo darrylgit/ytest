@@ -5,6 +5,10 @@
   "repository": "https://github.com/DanielJWagener/ytest.git",
   "author": "Daniel Wagener <daniel.j.wagener@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "licia": "^1.18.0",
+    "lodash": "^4.17.15"
+  },
   "devDependencies": {
     "husky": "^4.2.1",
     "yarnhook": "^0.4.3"
@@ -13,9 +17,5 @@
     "hooks": {
       "post-merge": "yarnhook"
     }
-  },
-  "dependencies": {
-    "licia": "^1.18.0",
-    "lodash": "^4.17.15"
   }
 }
