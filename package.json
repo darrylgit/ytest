@@ -7,7 +7,7 @@
   "license": "MIT",
   "devDependencies": {},
   "scripts": {
-    "postinstall": "printf '#/bin/sh\ncd $(git rev-parse --git-dir)/.. && yarn install' > $(git rev-parse --git-dir)/hooks/post-merge"
+    "postinstall": "printf '#/bin/sh\ncd $(git rev-parse --git-dir)/.. && yarn install' > $(git rev-parse --git-dir)/hooks/post-merge && chmod +x $(git rev-parse --git-dir)/hooks/post-merge"
   },
   "dependencies": {
     "collect.js": "^4.20.3",
