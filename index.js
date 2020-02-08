@@ -1,3 +1,3 @@
-const collect = require("collect.js");
+const licia = require('licia');
 
-console.log(collect);
+console.log(licia);

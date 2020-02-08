@@ -7,6 +7,11 @@ collect.js@^4.20.3:
   resolved "https://registry.yarnpkg.com/collect.js/-/collect.js-4.20.3.tgz#fb8c98fbf7f042519f3ee7366a5b674e73de1cd4"
   integrity sha512-sPNxjntNe7GHszjcH3zWdyLQVYMRlK9uWnRGtnUsuCpHM/iUbqKSDeUail06hmwgQP7otIJEZwrSJScGxZ5XEg==
 
+licia@^1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/licia/-/licia-1.18.0.tgz#79c40e907837f3e34298da6cf32c1de4ab174529"
+  integrity sha512-WyaaoUjKwRZf0VQ3wxowjmeUhgEPBlnb5YNu0cf6aFZyshJOvKhIzZWdBmLf1bSKC9sxi4EHQKYeGS+bJu1dXQ==
+
 lodash@^4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
