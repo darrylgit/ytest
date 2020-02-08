@@ -10,7 +10,7 @@
     "postinstall": "printf '#/bin/sh\ncd $(git rev-parse --git-dir)/.. && yarn install' > $(git rev-parse --git-dir)/hooks/post-merge"
   },
   "dependencies": {
-    "licia": "^1.18.0",
+    "collect.js": "^4.20.3",
     "lodash": "^4.17.15"
   }
 }
