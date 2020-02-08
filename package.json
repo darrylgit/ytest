@@ -5,17 +5,12 @@
   "repository": "https://github.com/DanielJWagener/ytest.git",
   "author": "Daniel Wagener <daniel.j.wagener@gmail.com>",
   "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "printf '#/bin/sh\ncd $(git rev-parse --git-dir)/.. && yarn install' > $(git rev-parse --git-dir)/hooks/post-merge"
+  },
   "dependencies": {
     "licia": "^1.18.0",
     "lodash": "^4.17.15"
-  },
-  "devDependencies": {
-    "husky": "^4.2.1",
-    "yarnhook": "^0.4.3"
-  },
-  "huksy": {
-    "hooks": {
-      "post-merge": "yarnhook"
-    }
   }
 }
